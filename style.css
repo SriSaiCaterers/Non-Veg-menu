@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f7f6f2, #e3ffe7);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 650px;
+  background: #fff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  text-align: center;
+  color: #0066cc;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section h4 {
+  margin-bottom: 10px;
+  color: #0066cc;
+}
+
+.menu-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu-item {
+  padding: 10px 15px;
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  background-color: #e6f7ff;
+  transform: scale(1.05);
+}
+
+.menu-item.selected {
+  background: linear-gradient(to right, #c1fcd3, #a8edea);
+  border-color: #38a169;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+.preview-section {
+  background: #fefefe;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: 1px dashed #ccc;
+  margin-top: 20px;
+}
+
+.preview-section h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #25d366, #128c7e);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1ebd5a, #075e54);
+  transform: scale(1.02);
+}
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #e6ffe6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 0;
+  color: #004d1a;
+}
+
+footer a {
+  color: #007b33;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
