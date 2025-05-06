@@ -17,7 +17,7 @@ const menuItems = {
     "Gongura Chicken Curry",
     "Kadai Chicken Curry",
     "Mutton Curry",
-    "Butter Chicken",
+    "Butter Mutton",
     "Gongura Mutton",
   ],
   fry: [
@@ -53,6 +53,7 @@ const menuItems = {
     "Prawns Fry",
     "Prawns Kaju Fry",
   ],
+  sambar:["saambar","Rasam"],
   curd: ["Curd", "Raita"],
   sweets: [
     "Badusha",
